@@ -1,4 +1,4 @@
-const array = new Array(1000).fill(0);
+const array = new Array(1000).fill("asd");
 
 async function bootstrap() {
     for (const value of array) {
